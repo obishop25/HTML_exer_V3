@@ -1,11 +1,26 @@
 h1{
     font-size: 50px;
     color: red;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul,ol{
+    text-align: center;
+    list-style-type:none;
 }
 p{
+    border-style: dotted;
+    border-width:2px 2px 2px 2px;
     font-size: 40px;
     color: rgb(10, 6, 2);
-    background-color: blanchedalmond;
+    text-align: center;
+    width: 500px;
+    margin:0 auto;
 }
 #my-first-paragraph{
     font-size: 38px;
@@ -22,4 +37,8 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+}
+
+.textcenter{
+    text-align: center;
 }
